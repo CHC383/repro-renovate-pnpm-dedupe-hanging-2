@@ -1,4 +1,5 @@
 {
-  "extends": ["config:recommended"],
-  "postUpdateOptions": ["pnpmDedupe", "group:allNonMajor"]
+  "enabledManagers": ["npm"],
+  "extends": ["config:recommended", "group:allNonMajor"],
+  "postUpdateOptions": ["pnpmDedupe"]
 }
